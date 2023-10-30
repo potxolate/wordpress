@@ -1,0 +1,36 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-ft-press-release {
+	&.is-style-default {
+		background-color: #fff;
+		color: #242424;
+		padding: 2px;
+		border-radius: 25px 25px 0 0;
+		background: url("./background_press.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+
+	&.is-style-card {
+		border-radius: 25px 25px 0 0;
+		width: 33%;
+		height: 100vh;
+		margin-left: 0;
+		background-image: url("https://media.istockphoto.com/id/1293656496/es/foto/vista-a%C3%A9rea-de-los-andes-en-ecuador.webp?s=2048x2048&w=is&k=20&c=LTCStf7pLRIqbbbl1QLpkow9Kd0cgkajHk36mF6a_SU=");
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+
+
+}
+
+.wp-block-create-block-ft-press-release h3 {
+	font-size: 1.5em;
+	margin-top: 50%;
+
+}
